@@ -4,18 +4,14 @@
 #Leal Gonzalez Ignacio
 #Fizzbuz
 
-'''
-En este programa se listan numeros del 0 al 30 y si es multiplo de 3 se muestra en pantalla la palabra fizz y si es multiplo de 5 se muestra en pantalla la palabra buzz, en el caso donde el numero sea multiplo de 3 y de 5 se muestra en pantalla la palabra fizzbuzz
-'''
-
-for var in range(31):
-	if (var%3) == 0 and (var%5)!=0:
+for var in range(31):#Intervalo del 0 al 30
+	if (var%3) == 0 and (var%5)!=0:#Comparacion si el numero es multiplo de 3 pero no de 5 imprime el numero y fizz
 		print var
 		print 'fizz'
-	elif (var%3) == 0 and (var%5)!=0:
+	elif (var%3) != 0 and (var%5)==0:#Comparacion si el numero es multiplo de 5 pero no de 3 imprime el numero y buzz
 		print var
 		print 'buzz'
-	elif (var%3)==0 and (var%5)==0:
+	elif (var%3)==0 and (var%5)==0:#Comparacion si el numero es multiplo de 3 y de 5 imprime el numero y fizzbuzz
 		print var
 		print 'fizzbuzz'
 	else: 
