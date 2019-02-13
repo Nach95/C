@@ -78,18 +78,30 @@ _En este programa se compara un password con el password que ingresa el usuario,
 
 _En este programa ingresamos elementos cuando ejecutamos el programa y el programa nos mostrara el ultimo elemento ingresado, esto lo logramos por medio de apuntadores._
 
-## Practica
-**practica.c**
+## Practica9
+**ejercicio1.c**
 
-_._
+_Este programa asigna valores a un estructura llamandose a si misma, mostrando los atributos de la estructura._
 
-## Practica
-**practica.c**
+**ejercicio2.c**
 
-_._
+_Este programa utiliza el algoritmo Bubble sort, pero con la vertiente que utiliza apuntadores, los elementos a ordenar los definimos en un arreglo dentro del programa, utilizando dos funciones._
 
-## Practica
-**practica.c**
+**ejercicio3.c**
+
+_Este programa invertimos la cadena que ingresa el usuario al momento de ejecutar el programa, utilizando solamente apuntadores sin variables temporales._
+Para ejecutarlo es de la siguiente manera.
+```
+./ejercicio3.exe cadena
+```
+
+## Practica10
+**practica10.c**
+
+_En este programa leemos del archivo random que se encuentra en /dev/random el cual nos regresara un numero pseudoaleatorio y lo mostraremos al usuario._
+
+## Practica11
+**practica11.c**
 
 _._
 
