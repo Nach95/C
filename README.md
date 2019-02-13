@@ -103,24 +103,32 @@ _En este programa leemos del archivo random que se encuentra en /dev/random el c
 ## Practica11
 **practica11.c**
 
-_._
+_En este programa utilizamos sockets, este programa es el servidor que estara en escucha en el puerto 6630, al tener una conexion con un cliente esperara valores y si lo enviado por el cliente es una frase celebre por alguno de los instructores, mostrara el nombre del instrutor._
 
-## Practica
+## Practica12
+**practica12.c**
+
+_Este programa utiliza funciones de openssl, el cual obtendremos el MD5 de un texto que introduce el usuario._
+En ocaciones hay equipos que no tienen instalado openssl, por esta razon al compilarlo lo haremos de la siguiente manera.
+```
+gcc practica12.c -o practica12.exe -lsssl -lcrypto
+```
+
+## Practica13
+**practica.c**
+
+_Este programa codifica en base64 utilizando las librerias de openssl, codifica el texto ingresado por el usuario._
+En ocaciones hay equipos que no tienen instalado openssl, por esta razon al compilarlo lo haremos de la siguiente manera.
+```
+gcc practica13.c -o practica13.exe -lsssl -lcrypto
+```
+
+## Practica14
 **practica.c**
 
 _._
 
-## Practica
-**practica.c**
-
-_._
-
-## Practica
-**practica.c**
-
-_._
-
-## Practica
+## Practica15
 **practica.c**
 
 _._
