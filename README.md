@@ -14,23 +14,23 @@ fizzbuz._
 _En este programa se muestra la fecha en la zona horaria del centro de Mexico, la cual es la maxima posible guardada en un entero de 32 bits, mostrando la fecha con horas, minutos y segundos, cuando esto ocurre._
 
 ## Practica3
-**ejercicio1.c**
+**Practica3_ejercicio1.c**
 
 _En este programa se compara un password correcto con el password que ingresa el usuario, si es correcto se mostrara un mensaje de password correcto en caso contrario se le volvera a pedir, el usuario tiene tres intentos para escribir el password correcto._
 
-**ejercicio2.c**
+**Practica3_ejercicio2.c**
 
 _Programa que calcula el factorial de un numero, ingresado por el usuario._
 
-**ejercicio3.c**
+**Practica3_ejercicio3.c**
 
 _Programa que solicita el nombre de pila del usuario y lo cambia con una codificacion ROT13, cada letra del nombre de pila se cambia por la que esta a 13 lugares del abecedario, se utilizo el becedario en ingles._
 
-**ejercicio4.c**
+**Practica3_ejercicio4.c**
 
 _Programa que le pide al usuario un numero y muestra si es par o es impar, utilizando comparacion de bits con la operacion AND con el numero ingresado por el usuario y con el numero 1._
 
-**ejercicio5.c**
+**Practica3_ejercicio5.c**
 
 _Programa que calcula el numero de Fibonacci dado un numero entero introducido por el usuario, de manera recursiva._
 
@@ -79,15 +79,15 @@ _En este programa se compara un password con el password que ingresa el usuario,
 _En este programa ingresamos elementos cuando ejecutamos el programa y el programa nos mostrara el ultimo elemento ingresado, esto lo logramos por medio de apuntadores._
 
 ## Practica9
-**ejercicio1.c**
+**Practica9_ejercicio1.c**
 
 _Este programa asigna valores a un estructura llamandose a si misma, mostrando los atributos de la estructura._
 
-**ejercicio2.c**
+**Practica9_ejercicio2.c**
 
 _Este programa utiliza el algoritmo Bubble sort, pero con la vertiente que utiliza apuntadores, los elementos a ordenar los definimos en un arreglo dentro del programa, utilizando dos funciones._
 
-**ejercicio3.c**
+**Practica9_ejercicio3.c**
 
 _Este programa invertimos la cadena que ingresa el usuario al momento de ejecutar el programa, utilizando solamente apuntadores sin variables temporales._
 Para ejecutarlo es de la siguiente manera.
