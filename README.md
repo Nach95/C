@@ -124,13 +124,28 @@ gcc practica13.c -o practica13.exe -lsssl -lcrypto
 ```
 
 ## Practica14
-**practica.c**
+**practica14.c**
 
-_._
+_En esta practica utilizamos funciones de llamada de sistema para abrir archivos (descriptores de archivos), la cual abrimos el archivo del teclado, para obtener el codigo de la tecla que se esta oprimiendo para asi crear un archivo e ir guandando en el todo lo que se escribe, este archivo lo guardaremos en /tmp/ y lo llamaremos tecleado.txt._
 
 ## Practica15
-**practica.c**
+**practica15.c, keylogger.c, Makefile**
 
-_._
+_En esta practica es la combinacion de la practica14 con la ejecucion de un modulo de kernel, a diferencia de la practica14 ya no se mostrara lo que se ingreso por teclado en la consola, ahora se guardara directamente en el archivo tecleado el cual se encuentra en /tmp/._
+
+Para esto tenemos tres archivos uno llamado _keylogegr.c_ el cual es muy parecido a la practica 14 pero con la diferencia que no mostramos nada en consola todo se guarda en el archivo tecleado que se encuentra en /tmp/, el siguiente archivo es un archivo _Makefile_ el cual nos servira para crear los modulos de kernel el ultimo archivo se llama _practica15.c_ el cual tiene el codigo para crear los modulos de kernel.
+Primero compilamos normal el archivo de _keylogger.c_ despues ejecutamos con el comando Make, de la siguiente manera.
+
+```
+make all
+```
+Una vez ejecutado nos creara varios archivos el que nos interesa es el que termnia con extension _.ko_ una vez obtenido este archivo procedemos a ejecutar el siguiente comando para instalar el modulo de kernel.
+
+```
+insmod practica15.ko
+```
+Una vez ejecutado se instalara el modulo de kernel practica15.
+
+
 
 ---
